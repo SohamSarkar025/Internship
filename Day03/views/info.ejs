@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Info</title>
+</head>
+<body>
+    <h1><%= pageTitle %></h1>
+    <h2><%= info.name %></h2>
+    <p>Known Languages</p>
+    <% if(info.language.length >0){%>
+        <% info.language.forEach(function(lan){%>
+            <li><%= lan %></li>
+        <%})%>
+    <%}else{%>
+        <p>NO Langugae</p>
+    <%}%>
+
+</body>
+</html>

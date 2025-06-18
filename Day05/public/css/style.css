@@ -1,0 +1,82 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    animation: fadeIn 0.7s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.container h1 {
+    margin-bottom: 24px;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Form Fields */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 16px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #74ebd5;
+    outline: none;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    margin-top: 24px;
+    width: 100%;
+    padding: 14px;
+    background: #74ebd5;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background: #57d0c2;
+    transform: scale(1.03);
+}

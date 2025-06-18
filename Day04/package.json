@@ -1,0 +1,21 @@
+{
+  "name": "day04",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server1": "nodemon server1.js",
+    "server2": "nodemon server2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "events": "^3.3.0",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.3",
+    "nodemon": "^3.1.10"
+  }
+}
