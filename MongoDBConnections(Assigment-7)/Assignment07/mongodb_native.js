@@ -93,7 +93,7 @@ async function deleteStudent(id) {
     }
 }
 
-// Example function calls IN .
+// Example function calls.
 
 // Call createStudent() to insert a new student document
 // createStudent({ name: 'Alice', email: 'alice@example.com', age: 21, course: 'Math' });
