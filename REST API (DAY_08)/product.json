@@ -1,0 +1,16 @@
+[
+    {
+        "name": "M20",
+        "price": 10000,
+        "rating": 4.5,
+        "stock": true,
+        "company": "SAMSUNG"
+    },
+    {
+        "name": "IPHONE 15 PRO",
+        "price": 10000,
+        "rating": 4.5,
+        "stock": true,
+        "company": "APPLE"
+    }
+]
