@@ -93,16 +93,16 @@ async function deleteStudent(id) {
     }
 }
 
-// Example function calls (uncomment one at a time to test below)
+// Example function calls 
 
 // Call createStudent() to insert a new student document
-createStudent({ name: 'Alice', email: 'alice@example.com', age: 21, course: 'Math' });
+// createStudent({ name: 'Alice', email: 'alice@example.com', age: 21, course: 'Math' });
 
 // Call getStudents() to retrieve and display all student documents
 // getStudents();
 
 // Call updateStudent() with an ID and updated fields
-// updateStudent('PUT_VALID_ID_HERE', { age: 22 });
+// updateStudent('685aebf53c9c7411e95aa0d8', { age: 22 });
 
 // Call deleteStudent() with an ID to remove a student document
-// deleteStudent('PUT_VALID_ID_HERE');
+// deleteStudent('685aebf53c9c7411e95aa0d8');
