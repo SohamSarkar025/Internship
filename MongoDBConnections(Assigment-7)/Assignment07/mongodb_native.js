@@ -104,5 +104,5 @@ async function deleteStudent(id) {
 // Call updateStudent() with an ID and updated fields
 // updateStudent('685aebf53c9c7411e95aa0d8', { age: 22 });
 
-// Call deleteStudent() with an ID to remove a student document
+// Call deleteStudent() with an ID to remove a student document.
 // deleteStudent('685aebf53c9c7411e95aa0d8');
