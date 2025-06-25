@@ -8,7 +8,7 @@ mongoose.connect('mongodb+srv://soham123:soham123@cluster0.9jnaofk.mongodb.net/s
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error('Connection error:', err));
 
-// Define a schema for the "students" collection
+// Define a schema for the "students" collectioN
 // Fields: name, email, age, course
 const studentSchema = new mongoose.Schema({
     name: String,     // Student's name
