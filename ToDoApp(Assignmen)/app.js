@@ -2,7 +2,9 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 
+//Creating Task Array to Store the Data.
 let tasks = [];
+
 
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
